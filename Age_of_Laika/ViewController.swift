@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var enterHumanYearsTextField: UITextField!
+    @IBOutlet weak var convertedAgeLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +24,19 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func convertToDogYearsButtonPressed(sender: UIButton) {
+        
+        // Grab amount entered in textField and convert to an Int
+         let humanYearsEnteredIntoTextField:Int = enterHumanYearsTextField.text.toInt()!
+        
+        convertedAgeLabel.hidden = false
+        
+        convertedAgeLabel.text = "\(humanYearsEnteredIntoTextField * 7)" + " Human Years"
+        
+        enterHumanYearsTextField.resignFirstResponder()
+    }
+    
+    
+    
 }
 

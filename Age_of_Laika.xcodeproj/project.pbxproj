@@ -13,6 +13,7 @@
 		9AF8108019CB429C0043D178 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF8107F19CB429C0043D178 /* Images.xcassets */; };
 		9AF8108319CB429C0043D178 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AF8108119CB429C0043D178 /* LaunchScreen.xib */; };
 		9AF8108F19CB429D0043D178 /* Age_of_LaikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF8108E19CB429D0043D178 /* Age_of_LaikaTests.swift */; };
+		9AF8109919CB42BF0043D178 /* laika image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AF8109819CB42BF0043D178 /* laika image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		9AF8108819CB429D0043D178 /* Age_of_LaikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Age_of_LaikaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF8108D19CB429D0043D178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AF8108E19CB429D0043D178 /* Age_of_LaikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age_of_LaikaTests.swift; sourceTree = "<group>"; };
+		9AF8109819CB42BF0043D178 /* laika image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "laika image.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				9AF8107C19CB429C0043D178 /* Main.storyboard */,
 				9AF8107F19CB429C0043D178 /* Images.xcassets */,
 				9AF8108119CB429C0043D178 /* LaunchScreen.xib */,
+				9AF8109819CB42BF0043D178 /* laika image.jpg */,
 				9AF8107619CB429C0043D178 /* Supporting Files */,
 			);
 			path = Age_of_Laika;
@@ -195,6 +198,7 @@
 				9AF8107E19CB429C0043D178 /* Main.storyboard in Resources */,
 				9AF8108319CB429C0043D178 /* LaunchScreen.xib in Resources */,
 				9AF8108019CB429C0043D178 /* Images.xcassets in Resources */,
+				9AF8109919CB42BF0043D178 /* laika image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
